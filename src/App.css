@@ -1,0 +1,32 @@
+.counter{
+    display: flex;
+    gap: 2rem;
+}
+
+.counter__count{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter__increment{
+    padding: .5rem 2rem;
+    border-radius: 5px;
+}
+.counter__increment:hover{
+    cursor: pointer;
+}
+.counter__decrement{
+    padding: .5rem 2rem;
+    border-radius: 5px;
+}
+.counter__decrement:hover{
+    cursor: pointer;
+}
+.counter__reset{
+    padding: .5rem 2rem;
+    border-radius: 5px;
+}
+.counter__reset:hover{
+    cursor: pointer;
+}
